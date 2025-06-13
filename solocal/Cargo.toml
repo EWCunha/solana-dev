@@ -1,0 +1,14 @@
+[package]
+name = "solocal"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-program = "~1.8.14"
+
+[lib]
+crate-type = ["cdylib", "lib"]

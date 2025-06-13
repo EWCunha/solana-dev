@@ -1,0 +1,10 @@
+/Users/eduardo/Documents/Soldev/solocal/target/debug/deps/libserde_bytes-01c83e7010cde1aa.rmeta: /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/lib.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytearray.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytes.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/de.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/ser.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytebuf.rs
+
+/Users/eduardo/Documents/Soldev/solocal/target/debug/deps/serde_bytes-01c83e7010cde1aa.d: /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/lib.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytearray.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytes.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/de.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/ser.rs /Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytebuf.rs
+
+/Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/lib.rs:
+/Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytearray.rs:
+/Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytes.rs:
+/Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/de.rs:
+/Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/ser.rs:
+/Users/eduardo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytebuf.rs:

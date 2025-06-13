@@ -1,0 +1,15 @@
+{
+	"dependencies": {
+		"@solana-developers/helpers": "^2.8.1",
+		"@solana/spl-token": "^0.4.13",
+		"@solana/spl-token-swap": "^0.4.4",
+		"@solana/wallet-adapter-base": "^0.9.26",
+		"@solana/wallet-adapter-react": "^0.15.38",
+		"@solana/wallet-adapter-react-ui": "^0.9.38",
+		"@solana/web3.js": "^1.98.2",
+		"b58": "^4.0.3",
+		"bs58": "^6.0.0",
+		"esrun": "^3.2.30",
+		"typescript": "^5.8.3"
+	}
+}

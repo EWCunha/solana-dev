@@ -1,0 +1,19 @@
+1 - Intro to reading data
+2 - Intro to writing data
+3 - Serialize instruction data
+4 - Deserialize custom data
+5 - Paging, ordering, and filtering data
+6 - Token Program
+7 - Token Swap (only in pt_br)
+8 - Hello World Program
+9 - Deserialize instruction data
+10 - Program State Management
+11 - Program Security
+12 - Local Setup (only in pt_br)
+13 - CPI
+14 - Intro to Anchor frontend
+15 - Intro to Anchor
+16 - Anchor PDAs
+17 - Anchor CPI (https://github.com/loopcreativeandy/first-anchor-program)
+
+

@@ -1,0 +1,427 @@
+{
+    "tracks": [
+        {
+            "title": "Introduction",
+            "slug": "introduction",
+            "units": [
+                {
+                    "title": "Introduction",
+                    "slug": "introduction",
+                    "lessons": [
+                        {
+                            "title": "Get started",
+                            "slug": "getting-started"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "dApp development",
+            "slug": "dapp-development",
+            "units": [
+                {
+                    "title": "Introduction to cryptography and Solana clients",
+                    "slug": "introduction-to-cryptography",
+                    "lessons": [
+                        {
+                            "title": "Cryptography fundamentals",
+                            "slug": "intro-to-cryptography",
+                            "lab": "Create and load keypairs"
+                        },
+                        {
+                            "title": "Read data from the network",
+                            "slug": "intro-to-reading-data",
+                            "lab": "Connect to Solana and check account balances"
+                        },
+                        {
+                            "title": "Create transactions on the Solana Network",
+                            "slug": "intro-to-writing-data",
+                            "lab": "Make transactions and use Explorer"
+                        },
+                        {
+                            "title": "Create tokens with the Token Program",
+                            "slug": "token-program",
+                            "lab": "Mint, transfer and burn tokens"
+                        },
+                        {
+                            "title": "Create Solana NFTs With Metaplex",
+                            "slug": "nfts-with-metaplex",
+                            "lab": "Mint NFTs, update their metadata, and associate with a collection"
+                        },
+                        {
+                            "title": "Create transactions for custom onchain programs",
+                            "slug": "intro-to-custom-on-chain-programs",
+                            "lab": "Make transactions for a custom onchain program"
+                        },
+                        {
+                            "title": "Interact with wallets",
+                            "slug": "interact-with-wallets",
+                            "lab": "Make a React frontend to the Ping program"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Onchain program development",
+            "slug": "on-chain-program-development",
+            "units": [
+                {
+                    "title": "Introduction to Onchain Program Development",
+                    "slug": "introduction-to-onchain-program-development",
+                    "lessons": [
+                        {
+                            "title": "Intro to onchain program development",
+                            "slug": "intro-to-onchain",
+                            "lab": null
+                        },
+                        {
+                            "title": "Local Setup",
+                            "slug": "local-setup",
+                            "lab": "Configure Windows, Mac and Linux for localhost Solana development"
+                        }
+                    ]
+                },
+                {
+                    "title": "Anchor Program Development",
+                    "slug": "anchor-program-development",
+                    "lessons": [
+                        {
+                            "title": "Getting started with Anchor",
+                            "slug": "intro-to-anchor",
+                            "lab": "Create a 'hello world' application"
+                        },
+                        {
+                            "title": "Using Anchor programs from JS/TS",
+                            "slug": "intro-to-anchor-frontend",
+                            "lab": "Create a React and Anchor frontend for the ping-counter app"
+                        },
+                        {
+                            "title": "Anchor PDAs and accounts",
+                            "slug": "anchor-pdas",
+                            "lab": "Use Anchor to create a Movie Review program"
+                        },
+                        {
+                            "title": "Anchor CPIs and errors",
+                            "slug": "anchor-cpi",
+                            "lab": "Mint token rewards for reviews"
+                        }
+                    ]
+                },
+                {
+                    "title": "Native Solana Program Development",
+                    "slug": "basic-solana-program-development",
+                    "lessons": [
+                        {
+                            "title": "Serialize program data",
+                            "slug": "serialize-instruction-data",
+                            "lab": "Build a React frontend to submit movie reviews"
+                        },
+                        {
+                            "title": "Deserialize program data",
+                            "slug": "deserialize-custom-data",
+                            "lab": "Build a React frontend to show movie reviews"
+                        },
+                        {
+                            "title": "Page, Order, and Filter program data",
+                            "slug": "paging-ordering-filtering-data",
+                            "lab": "Adding paging, ordering and searching to the movie reviews frontend"
+                        },
+                        {
+                            "title": "Hello World in native",
+                            "slug": "hello-world-program",
+                            "lab": "Create and deploy a native 'hello world' onchain program"
+                        },
+                        {
+                            "title": "Handle Instruction Data",
+                            "slug": "deserialize-instruction-data",
+                            "lab": "Make an onchain program that recieves movie reviews and deserialises them"
+                        },
+                        {
+                            "title": "State Management",
+                            "slug": "program-state-management",
+                            "lab": "Make an onchain program that stores movie reviews"
+                        },
+                        {
+                            "title": "Basic Security and Validation",
+                            "slug": "program-security",
+                            "lab": "Add security checks and updates to the movie reviews program"
+                        }
+                    ]
+                },
+                {
+                    "title": "Intermediate Solana Program Development",
+                    "slug": "intermediate-solana-program-development",
+                    "lessons": [
+                        {
+                            "title": "Program Derived Addresses",
+                            "slug": "pda",
+                            "lab": "Use PDAs to store comments for the movie reviews program"
+                        },
+                        {
+                            "title": "Cross Program Invocations",
+                            "slug": "cpi",
+                            "lab": "Use CPIs to mint token rewards for reviews and comments"
+                        },
+                        {
+                            "title": "Program Testing",
+                            "slug": "program-testing",
+                            "hidden": true
+                        }
+                    ]
+                },
+                {
+                    "title": "Beyond the Basics",
+                    "slug": "beyond-the-basics",
+                    "lessons": [
+                        {
+                            "title": "Environment variables in Solana programs",
+                            "slug": "env-variables",
+                            "lab": "Create feature flags to help test locally"
+                        },
+                        {
+                            "title": "Solana Pay",
+                            "slug": "solana-pay",
+                            "lab": "Use QR codes to create payment requests"
+                        },
+                        {
+                            "title": "Versioned transactions and lookup tables",
+                            "slug": "versioned-transaction",
+                            "lab": "Using a lookup table to handle many accounts in a single transaction"
+                        },
+                        {
+                            "title": "Rust procedural macros",
+                            "slug": "rust-macros",
+                            "lab": "Use Rust macros to generate program code"
+                        }
+                    ]
+                },
+                {
+                    "title": "Solana Program Security",
+                    "slug": "solana-program-security",
+                    "lessons": [
+                        {
+                            "title": "How to approach the Program Security unit",
+                            "slug": "security-intro"
+                        },
+                        {
+                            "title": "Signer authorization",
+                            "slug": "signer-auth",
+                            "lab": "Check signers are correct before processing transactions"
+                        },
+                        {
+                            "title": "Owner checks",
+                            "slug": "owner-checks",
+                            "lab": "Check owners are correct before processing transactions"
+                        },
+                        {
+                            "title": "Account data matching",
+                            "slug": "account-data-matching",
+                            "lab": "Check account data is correct before processing transactions"
+                        },
+                        {
+                            "title": "Reinitialization attacks",
+                            "slug": "reinitialization-attacks",
+                            "lab": "Ensure accounts can only be initialised once to prevent overriding existing data"
+                        },
+                        {
+                            "title": "Duplicate mutable accounts",
+                            "slug": "duplicate-mutable-accounts",
+                            "lab": "Ensure accounts are distinct"
+                        },
+                        {
+                            "title": "Type cosplay",
+                            "slug": "type-cosplay",
+                            "lab": "Implement checks for correct account types"
+                        },
+                        {
+                            "title": "Arbitrary CPIs",
+                            "slug": "arbitrary-cpi",
+                            "lab": "Ensure CPIs are only called by the correct program"
+                        },
+                        {
+                            "title": "Bump seed canonicalization",
+                            "slug": "bump-seed-canonicalization",
+                            "lab": "Ensure bump seeds are always canonical"
+                        },
+                        {
+                            "title": "Closing accounts and revival attacks",
+                            "slug": "closing-accounts",
+                            "lab": "Ensure accounts that are closed can't be reused"
+                        },
+                        {
+                            "title": "PDA sharing",
+                            "slug": "pda-sharing",
+                            "lab": "Ensure PDA design avoids shared accounts"
+                        }
+                    ]
+                },
+                {
+                    "title": "Advanced Solana Programming",
+                    "slug": "advanced-solana-programming",
+                    "lessons": [
+                        {
+                            "title": "Program architecture",
+                            "slug": "program-architecture",
+                            "lab": "Create an optimized onchain RPG game"
+                        },
+                        {
+                            "title": "Oracles and oracle networks",
+                            "slug": "oracles",
+                            "lab": "Use Switchboard to create an Escrow program"
+                        },
+                        {
+                            "title": "Verifiable randomness functions",
+                            "slug": "vrf",
+                            "lab": "Add randomness to the Escrow program"
+                        },
+                        {
+                            "title": "Compressed NFTs",
+                            "slug": "compressed-nfts",
+                            "lab": "Mint, read and transfer NFTs at scale with Bubblegum"
+                        },
+                        {
+                            "title": "Generalized State Compression",
+                            "slug": "generalized-state-compression",
+                            "lab": "Build a Notes program using state compression"
+                        },
+                        {
+                            "title": "Durable Nonces",
+                            "slug": "durable-nonces",
+                            "lab": "Use durable nonces to create durable transactions"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Solana Mobile Development",
+            "slug": "solana-mobile-development",
+            "units": [
+                {
+                    "title": "Solana Mobile Development",
+                    "slug": "solana-mobile-development",
+                    "lessons": [
+                        {
+                            "title": "Introduction to Solana Mobile",
+                            "slug": "intro-to-solana-mobile",
+                            "lab": "Build a simple Android counter dApp with React Native"
+                        },
+                        {
+                            "title": "Exploring Mobile Wallet Adapter",
+                            "slug": "mwa-deep-dive",
+                            "lab": "Build a simple MWA-enabled mobile wallet"
+                        },
+                        {
+                            "title": "Building Solana Mobile dApps with Expo",
+                            "slug": "solana-mobile-dApps-with-expo",
+                            "lab": "Build a mobile dApp that mints NFTs from photos"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Token Extensions Program",
+            "slug": "token-extensions-program",
+            "units": [
+                {
+
+                    "title": "Intro to Token Extensions Program",
+                    "slug": "intro-to-token-extensions-program",
+                    "lessons": [
+                        {
+                            "title": "Intro to Token Extensions Program",
+                            "slug": "intro-to-token-extensions-program",
+                            "lab": "Use the CLI to interact with the Token Extensions Program"
+                        },
+                        {
+                            "title": "Intro to Token Extensions Program in the Client",
+                            "slug": "token-extensions-in-the-client",
+                            "lab": "Integrate Token Program and Token Extensions Program in the client"
+                        },
+                        {
+                            "title": "Intro to Token Extensions Program On-Chain",
+                            "slug": "token-extensions-on-chain",
+                            "lab": "Integrate Token Program and Token Extensions Program on-chain"
+                        }
+                    ]
+                },
+                {
+                    "title": "Mint Extensions",
+                    "slug": "mint-extensions",
+                    "lessons": [
+                        {
+                            "title": "Metadata and Metadata Pointer Extension",
+                            "slug": "token-extensions-metadata",
+                            "lab": "Make an NFT using the Token Extensions Program"
+                        },
+                        {
+                            "title": "Group, Group Pointer, Member, and Member Pointer Extensions",
+                            "slug": "group-member",
+                            "lab": "Create an NFT collection with group, member and metadata extensions",
+                            "hidden": true
+                        },
+                        {
+                            "title": "Non-Transferrable Token Extension",
+                            "slug": "non-transferable-token",
+                            "lab": "Create a soul-bound NFT"
+                        },
+                        {
+                            "title": "Transfer Fee Extension",
+                            "slug": "transfer-fee",
+                            "lab": "Create a mint with transfer fees enabled"
+                        },
+                        {
+                            "title": "Close Mint Extension",
+                            "slug": "close-mint",
+                            "lab": "Create a closable mint"
+                        },
+                        {
+                            "title": "Interest Bearing Token Extension",
+                            "slug": "interest-bearing-token",
+                            "lab": "Create an interest bearing token"
+                        },
+                        {
+                            "title": "Permanent Delegate Extension",
+                            "slug": "permanent-delegate",
+                            "lab": "Create a mint with a permanent delegate"
+                        },
+                        {
+                            "title": "Transfer Hook Extension",
+                            "slug": "transfer-hook",
+                            "lab": "Create a mint with a transfer hook"
+                        }
+                    ]
+                },
+                {
+                    "title": "Token Extensions",
+                    "slug": "token-extensions",
+                    "lessons": [
+                        {
+                            "title": "Default State Extension",
+                            "slug": "default-account-state",
+                            "lab": "Test token interactions with frozen default states"
+                        },
+                        {
+                            "title": "Immutable Owner Extension",
+                            "slug": "immutable-owner",
+                            "lab": "Create a mint with an immutable owner"
+                        },
+                        {
+                            "title": "Required Memo Extension",
+                            "slug": "required-memo",
+                            "lab": "Create a token that requires a memo"
+                        },
+                        {
+                            "title": "CPI Guard Extension",
+                            "slug": "cpi-guard",
+                            "lab": "Create a token that requires a CPI guard"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
