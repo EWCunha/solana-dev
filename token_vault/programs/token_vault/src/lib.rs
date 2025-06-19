@@ -7,8 +7,21 @@ declare_id!("sCt6iFaX8TJEZVVkCR7MBg4DnPvNV4p98r9ur7Sw5oN");
 pub mod token_vault {
     use super::*;
 
-    pub fn initialize(ctx: Context<InitializeVault>) -> Result<()> {
+    pub fn initialize(_ctx: Context<InitializeVault>) -> Result<()> {
         msg!("Creating mint");
+        Ok(())
+    }
+
+    pub fn deposit(ctx: Context<Deposit>, amount: u64) -> Result<()> {
+        msg!("Depositing {} tokens", amount);
+
+       
+       
+        Ok(())
+    }
+
+    pub fn withdraw(ctx: Context<Withdraw>, amount: u64) -> Result<()> {
+        msg!("Withdrawing {} tokens", amount);
         Ok(())
     }
 }
@@ -25,17 +38,6 @@ pub struct InitializeVault<'info> {
     )]
     pub shares_mint: InterfaceAccount<'info, Mint>,   
 
-    // #[account(
-    //     init,
-    //     payer = signer,
-    //     token::mint = shares_mint,
-    //     token::authority = shares_authority.key(),
-    //     token::token_program = token_program,
-    //     seeds = [b"vault_ta"],
-    //     bump
-    // )]
-    // pub token_account: InterfaceAccount<'info, TokenAccount>,
-
     /// CHECK: PDA, no need to deserialize
     #[account(
         seeds = [b"authority"],
@@ -48,4 +50,13 @@ pub struct InitializeVault<'info> {
 
     pub token_program: Interface<'info, TokenInterface>,
     pub system_program: Program<'info, System>,
+}
+
+#[derive(Accounts)]
+pub struct Deposit<'info> {
+    #[account(mut)]
+    pub signer: Signer<'info>,
+
+    #[account(mut)]
+    pub token_account: InterfaceAccount<'info, TokenAccount>,
 }
